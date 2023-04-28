@@ -1,14 +1,14 @@
 //String Kebab-case
-let kebabCaseString = '';
+let kebab = '';
 
 //Boucle for pour itérer de 1 à 10 + création de la variable H
 for (let h = 1; h <= 10; h++){
     if (h > 1) {
-        kebabCaseString += '-';
+        kebab += '-';
     }
-    kebabCaseString += h.toString();
+    kebab += h.toString();
 }
 
 //Affiche dans la console
 
-console.log(kebabCaseString)
+console.log(kebab)
