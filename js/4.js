@@ -1,3 +1,4 @@
+//Utilisation d'une boucle avec la variable C
 for (let c = 1; c <= 10; c++) {
     if (c === 10) {
     //Affiche dans la console
